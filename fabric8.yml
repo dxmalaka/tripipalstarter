@@ -1,0 +1,13 @@
+---
+buildName: "tripipalstarter"
+codeReview: false
+links:
+  Git: "https://github.com/dxmalaka/tripipalstarter"
+  Job: "http://jenkins.f8.35.164.51.209.xip.io/job/tripipalstarter"
+  Production: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-prod"
+  Staging: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-staging"
+  Testing: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-testing"
+environments:
+  Testing: "f8-testing"
+  Staging: "f8-staging"
+  Production: "f8-prod"
